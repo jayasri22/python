@@ -1,5 +1,6 @@
 #include<stdio.h>
-void main()
+#include<conio.h>
+int main(void)
 {
 char c;
 printf("enter the character");
