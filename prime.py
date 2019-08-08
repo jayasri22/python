@@ -11,4 +11,3 @@ if a > 1:
          
 else:  
    print(a," no")  
-Output:
