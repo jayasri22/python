@@ -1,13 +1,13 @@
-a = int(input("Enter a value: "))  
+num = int(input("Enter a number: "))  
   
-if a > 1:  
-   for i in range(2,a):  
-       if (a % i) == 0:  
-           print(a,"no")  
-           print(i,"times",a//i,"is",a)  
+if num > 1:  
+   for i in range(2,num):  
+       if (num % i) == 0:  
+           print(num,"is not a prime number")  
+           print(i,"times",num//i,"is",num)  
            break  
    else:  
-       print(a,"yes")  
+       print(num,"is a prime number")  
          
 else:  
-   print(a," no")  
+   print(num,"is not a prime number")  
